@@ -21,6 +21,8 @@ class UserRoleMiddleware
             } else if ($request->user()->role === 'candidate') {
                 return redirect()->route('candidate.dashboard');
             }
+
+            return redirect()->route('admin.dashboard');
         }
 
         return $next($request);
