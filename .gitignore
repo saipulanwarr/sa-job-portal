@@ -21,6 +21,7 @@
 /vendor
 /public/default_uploads
 /public/admin/assets
+/public/frontend/assets
 Homestead.json
 Homestead.yaml
 Thumbs.db
